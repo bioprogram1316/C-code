@@ -19,6 +19,7 @@ int main() {
 
 	return 0;
 }
+
 int* insertInSortedArr(int oldArr[], int oldArrSize, int num) {
 	int *newArr = new int[oldArrSize + 1];
 	int placeHolder=0;
